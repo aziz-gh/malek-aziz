@@ -17,11 +17,11 @@ public class Sorter{
         System.out.println("Before Insertion Sort");    
         for(int i:arr2){    
             System.out.print(i+" ");    
-        }    
+    }   
         System.out.println();    
-            
+        
         insertionSort(arr2);   
-           
+    
         System.out.println("After Insertion Sort");    
         for(int i:arr2){    
             System.out.print(i+" ");
@@ -56,9 +56,9 @@ public class Sorter{
             arr[index] = arr[i];  
             arr[i] = smallerNumber;  
         }  
-    }
+    } 
     
     static void sort(int[] arr){
-        insertionSort(arr);
+       insertionSort(arr);
     }
 }
