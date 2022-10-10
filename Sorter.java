@@ -56,5 +56,9 @@ public class Sorter{
             arr[index] = arr[i];  
             arr[i] = smallerNumber;  
         }  
-    } 
+    }
+    
+    static void sort(int[] arr){
+        insertionSort(arr);
+    }
 }
