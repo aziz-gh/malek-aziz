@@ -13,17 +13,17 @@ public class Sorter{
         for(int i:arr1){  
             System.out.print(i+" ");  
         }  
-        int[] arr1 = {9,14,3,2,43,11,58,22};    
+        int[] arr2 = {9,14,3,2,43,11,58,22};    
         System.out.println("Before Insertion Sort");    
-        for(int i:arr1){    
+        for(int i:arr2){    
             System.out.print(i+" ");    
         }    
         System.out.println();    
             
-        insertionSort(arr1);   
+        insertionSort(arr2);   
            
         System.out.println("After Insertion Sort");    
-        for(int i:arr1){    
+        for(int i:arr2){    
             System.out.print(i+" ");
     }   
 }
